@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Senuka<span>.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="menu-toggle" id="menuToggle">☰</div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="tag">Web Developer</p>
+        <h1>Hi, I'm <span>Senuka</span></h1>
+        <h2>I build clean and modern websites.</h2>
+        <p class="hero-description">
+          I create responsive websites using HTML, CSS, JavaScript and modern UI design.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+          <a href="#contact" class="btn secondary-btn">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="images/profile.png" alt="Profile Image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Get to know me</p>
+
+      <div class="about-content">
+        <div class="about-card">
+          <h3>Who I Am</h3>
+          <p>
+            I am a beginner-friendly portfolio owner and aspiring web developer who enjoys
+            building attractive and responsive websites.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>My Goal</h3>
+          <p>
+            My goal is to improve my frontend skills and create professional websites for clients.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <p class="section-subtitle">Technologies I use</p>
+
+      <div class="skills-grid">
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">CSS</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">Bootstrap</div>
+        <div class="skill-box">Responsive Design</div>
+        <div class="skill-box">Git & GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">Some of my work</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A modern personal portfolio website design using HTML, CSS and JavaScript.</p>
+          <a href="#" class="project-link">View More</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Landing Page</h3>
+          <p>A responsive landing page with modern UI sections and call-to-action buttons.</p>
+          <a href="#" class="project-link">View More</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Dashboard UI</h3>
+          <p>A clean dashboard layout for admin or analytics style websites.</p>
+          <a href="#" class="project-link">View More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-subtitle">Let's work together</p>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Senuka. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
